@@ -1,0 +1,41 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+
+/* A class to align the text to the right */
+.right {
+    text-align:right;
+}
+
+/* A class to display the dishes */
+.dishes {
+    text-align:center;
+    display:inline-block;
+    width:150px;
+    vertical-align:top;
+}
+
+.vertical{
+    display:flex;  
+    flex-direction:column; 
+    height:100%;
+}
+
+@media (min-width:250px){ 
+    .flexParent{ 
+        display:flex;  
+        flex-direction:row; 
+        height:100%;
+    }
+}
+
+
+.sidebar{
+    border-style:solid;
+    flex:0;
+}
+
+.mainContent{ 
+    flex:1;
+}
